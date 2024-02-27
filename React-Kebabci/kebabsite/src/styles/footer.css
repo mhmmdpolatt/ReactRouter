@@ -1,0 +1,25 @@
+.footer {
+    /* position: fixed;
+    bottom: 0;
+    left: 0; */
+    width: 100%;
+    background-color: rgb(39, 38, 37);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 10px;
+}
+
+.socialmedia svg {
+    color: #fff;
+    font-size: 24px;
+}

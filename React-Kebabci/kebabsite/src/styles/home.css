@@ -1,0 +1,35 @@
+.homePage{
+    background-image: linear-gradient(to right , rgba(0, 0, 0, 0.838) , rgba(0, 0, 0, 0.855)),url('../assets/kebab.avif');
+   
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+button{
+    border: none;
+    border-radius: 18px;
+    padding: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(43, 40, 40);
+    color: white;
+    margin-bottom: 60px;
+    margin-left: 12px;
+    font-size: 18px;
+}
+.homePage h1{
+    
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+
+}

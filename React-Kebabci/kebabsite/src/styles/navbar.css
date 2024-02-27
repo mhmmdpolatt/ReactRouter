@@ -1,0 +1,41 @@
+
+.navDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(39, 38, 37);
+    padding: 12px;
+  }
+  .navDiv h3{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: unset;
+    margin-left: 8px;
+  }
+  .mainNav{
+    display: flex;
+    justify-content: space-around;
+  
+    gap: 10px;
+    margin-right: 8px;
+    
+  }
+  
+  .mainNav a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+  
+  }
+.gis{
+    font-size: 50px;
+    color: white;
+}
+
+.leftNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}

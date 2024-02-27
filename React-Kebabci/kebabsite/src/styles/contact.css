@@ -1,0 +1,82 @@
+.contactPage{
+    display: flex;
+    width: 100%;
+
+
+    
+   
+}
+.imageContact{
+    width: 60%;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    /* max-width: 25%; */
+}
+.imageContact img{
+    width: 80%;
+    height: 80%;
+    border-radius: 35px;
+    display: block;
+/*  
+    height: auto; */
+     /* Yuvarlak bir resim için */
+  
+
+    
+
+   
+
+
+}
+
+form {
+    width: 100%;
+    background-color: #333;
+    /* max-width: 75%; */
+    padding: 40px; /* Formun içerisindeki içeriğin kenar boşlukları */
+    color: white;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+

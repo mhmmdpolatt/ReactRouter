@@ -1,0 +1,59 @@
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: #333;
+}
+
+.menuCard {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.menuCard:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.menuİmage img {
+    width: 100%;
+    height: auto;
+}
+
+.cardFooter {
+    padding: 15px;
+    background-color:#333;
+}
+
+.cardFooter h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.cardFooter p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+button {
+    
+    padding: 10px;
+    border: none;
+    background-color: #efefef;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
